@@ -1,0 +1,15 @@
+name = {"Vignesh","Messi","Virat"}
+print(type(name))
+name.add("Santhosh")
+print(name)
+attendance = {"Vignesh","Messi","Virat","Kumar","Keerthi"}
+print("----------------------------------------------")
+name.symmetric_difference_update(attendance)
+print(name)
+name.intersection_update(attendance)
+print("---------------------------------------")
+print(name)
+print("----------------------------------------")
+name.union(attendance)
+print("----------------------------------")
+print(name)
